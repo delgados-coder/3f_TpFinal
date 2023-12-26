@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+body{
+    width: 100vw;
+    height: 100%;
+    /* background: linear-gradient(rgba(0, 54, 8, 0.9), rgba(153, 143, 0, 0.9)); */
+    overflow-x: hidden; /* Esto ocultará las barras de desplazamiento */
+    margin: 0;/* Para asegurarte de que no haya margen que cause desplazamiento */
+    padding: 0; /* Para asegurarte de que no haya relleno que cause desplazamiento */
+    background: linear-gradient(rgba(15, 63, 1, 0.8), rgba(99, 110, 0, 0.8)), url('../img/php_code-1200x960.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+} 
+.font1{
+    font-family: 'Archivo', sans-serif;
+    font-size: 40px;
+}
+.bordes{
+    border-radius: 12px;
+    border: 2px solid white;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    /*border: 2px solid rgb(102, 255, 0);*/
+}
+.bordesTable{
+     border-left: 2px solid rgb(255, 255, 255);
+}
+.filaPintada{
+    background: rgb(0, 0, 0);
+    color:whitesmoke;
+}
+.filaNoPintada{
+    background: transparent;
+    color:whitesmoke;
+}
+.marginOK{
+    margin-bottom: 43rem;
+}
+
+
+
+
+
+
+/* ... Otros estilos ... */
+
+.mensaje {
+    display:flex;
+    flex-direction: column;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+  }
+  
+  .mensaje-contenido {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 30%; /* Ancho del mensaje emergente */
+    height: 30%; /* Alto del mensaje emergente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mensaje-contenido i {
+    color: green;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  /*formulario de alta*/
+  .formularioAlta{
+    width: auto;
+    height: auto; 
+    padding:5%;
+    background-color: rgba(5, 82, 5, 0.75);
+    color:white;
+  }
+  /*formulario de alta*/
+
+  /*modificarMovimientos*/
+  .modificarMovimientos{
+      width: auto;
+      height: auto; 
+      padding:5%;
+      background-color: rgba(1, 94, 1, 0.75)!important;
+      color:white;
+  }
+ 
+  /*modificarMovimientos*/
